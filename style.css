@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.nav {
+  display: flex;
+  margin: 0;
+  font-size: 16px;
+}
+.container {
+  display: flex;
+  background-color: blue;
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 18px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+}
+.menu-item {
+  list-style: none;
+  display: block;
+  padding: 0 10px;
+  line-height: 1.1;
+}
+a {
+  padding: 0 0 5px 0;
+  position: relative;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+.logo {
+  color: wheat;
+  margin: 1rem 0;
+}
